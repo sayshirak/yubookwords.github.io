@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+h3 {
+    font-family: 'Arial', sans-serif; /* 指定字体，备用字体为sans-serif */
+    font-size: 24px; /* 调整字体大小 */
+    color: #333; /* 调整字体颜色 */
+}
+
+.sidebar {
+    float: left;
+    width: 200px;
+    padding: 10px;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+}
+main {
+    margin-left: 220px;
+    padding: 20px;
+}
+details summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+a:hover {
+    text-decoration: underline;
+}
