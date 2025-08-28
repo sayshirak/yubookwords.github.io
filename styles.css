@@ -1,3 +1,4 @@
+/* 现有样式保持 */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -10,13 +11,6 @@ header {
     background-color: #fff;
     border-bottom: 1px solid #ddd;
 }
-
-h3 {
-    font-family: 'Arial', sans-serif; /* 指定字体，备用字体为sans-serif */
-    font-size: 24px; /* 调整字体大小 */
-    color: #333; /* 调整字体颜色 */
-}
-
 .sidebar {
     float: left;
     width: 200px;
@@ -42,4 +36,35 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+
+/* 新增正文样式 */
+h4 {
+    font-family: 'Georgia', serif;
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+h5 {
+    font-family: 'Verdana', sans-serif;
+    font-size: 20px;
+    color: #34495e;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+strong {
+    font-weight: bold;
+    color: #e74c3c; /* 加粗文字用红色突出 */
+}
+u {
+    text-decoration: underline;
+    color: #2980b9; /* 下划线文字用蓝色 */
 }
